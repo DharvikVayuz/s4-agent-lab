@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-groq
+langchain-openrouter
+pydantic
+python-dotenv
+streamlit
+ddgs
+wikipedia

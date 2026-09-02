@@ -1,0 +1,64 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-09-02 11:54:46.826 Uvicorn server started on :::8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.86.95.153:8501
+  External URL: http://152.58.96.246:8501
+
+
+
+[1m> Entering new AgentExecutor chain...[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m
+Invoking: `wikipedia` with `Alan Turing`
+
+
+[0m[32;1m[1;3m
+Invoking: `wikipedia` with `Alan Turing`
+
+
+[0m
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m
+Invoking: `wikipedia` with `Alan Turing`
+
+
+[0m[33;1m[1;3mPage: Alan Turing
+Summary: Alan Mathison Turing (; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.
+Born in London, Turing was raised in southern England. He graduated from King's College, Cambridge, and in 1938, earned a doctorate degree from Princeton University. During World War II, Turing worked for the Government Code and Cypher School at Bletchley Park, Britain's codebreaking centre that produced Ultra intelligence. He led Hut 8, the section responsible for German naval cryptanalysis. Turing devised techniques for speeding the breaking of German ciphers, including improvements to [0m[32;1m[1;3m
+Invoking: `save_research` with `Topic: Alan Turing
+Summary: Alan Mathison Turing (23 June 1912 – 7 June 1954) was an English mathematician, logician, cryptanalyst, philosopher, and pioneering computer scientist. He is most famous for formalising the concepts of algorithm and computation with the Turing machine, a theoretical construct that underlies modern computer architecture and the field of theoretical computer science, earning him the title "father of computer science." During World War II, Turing worked at Bletchley Park, where he led Hut 8 in breaking the German Enigma cipher, providing critical intelligence that helped the Allies win the war. His work laid the foundations for modern digital computers, artificial intelligence, and computational theory. After the war, he contributed to early computer design, proposed the Turing test for machine intelligence, and advanced mathematical biology. Turing's legacy also includes his tragic personal story: he was prosecuted for homosexuality in 1952, leading to his chemical castration and early death, which has since become a symbol of the injustice faced by LGBTQ+ individuals. His posthumous pardon in 2013 and the continued celebration of his contributions underscore his profound impact on technology, science, and civil rights.
+Sources:
+- Wikipedia: Alan Turing (https://en.wikipedia.org/wiki/Alan_Turing)
+Tools Used:
+- Wikipedia`
+
+
+[0m[38;5;200m[1;3mData successfully saved to research_output.txt[0m[33;1m[1;3mWikipedia lookup failed after retries (Expecting value: line 1 column 1 (char 0)). Try web_search instead.[0m[33;1m[1;3mWikipedia lookup failed after retries (Expecting value: line 1 column 1 (char 0)). Try web_search instead.[0m[32;1m[1;3m
+Invoking: `web_search` with `Alan Turing biography`
+
+
+[0m[32;1m[1;3m
+Invoking: `web_search` with `Alan Turing biography significance`
+
+
+[0m[36;1m[1;3mAlan Mathison Turing (/ ˈtjʊərɪŋ /; 23 June 1912 - 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. [6] He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of ... Alan Turing was a British mathematician and logician, a major contributor to mathematics, cryptanalysis, computer science, and artificial intelligence. He invented the universal Turing machine, an abstract computing machine that encapsulates the fundamental logical principles of the digital computer. Alan Mathison Turing (1912-1954) was a talented British mathematician and logician whose work laid the foundation for modern computer science and artificial intelligence. He made significant ... 1. Outline of Life Alan Turing's short and extraordinary life has attracted wide interest. It has inspired his mother's memoir (E. S. Turing 1959), a detailed biography (Hodges 1983), a play and television film (Whitemore 1986), and various other works of fiction and art. There are many reasons for this interest, but one is that in every sphere of his life and work he made unexpected ... Alan Mathison Turing was an English mathematician, computer scientist, codebreaker, and philosopher known for his Turing Test, an imitation game. He is best known, however, for his 1936 paper on the "Turing Machine," which defines the conceptual framework of a theoretical device that manipulates ...[0m[36;1m[1;3mAlan Mathison Turing (/ ˈtjʊərɪŋ /; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. [6] Aug 1, 2026 · Who was Alan Turing? What was Alan Turing's main area of work? Why is Alan Turing important in the history of computers? What is the Turing Machine, and why is it significant? May 30, 2024 · Alan Mathison Turing (1912–1954) was a talented British mathematician and logician whose work laid the foundation for modern computer science and artificial intelligence. Aug 1, 2026 · Turing was a founding father of artificial intelligence and of modern cognitive science, and he was a leading early exponent of the hypothesis that the human brain is in large part a digital computing machine. Jun 3, 2002 · Alan Turing's short and extraordinary life has attracted wide interest. It has inspired his mother's memoir (E. S. Turing 1959), a detailed biography (Hodges 1983), a play and television film (Whitemore 1986), and various other works of fiction and art.[0m[32;1m[1;3m
+Invoking: `web_search` with `Alan Turing Wikipedia`
+
+
+[0m[32;1m[1;3m
+Invoking: `web_search` with `Alan Turing Wikipedia`
+
+
+[0m[36;1m[1;3m3 Aug 2026 · Alan Mathison Turing OBE, FRS [ˈælən ˈmæθɪsən ˈtjʊəɹɪŋ] (* 23. Juni 1912 in London; † 7. Juni 1954 in Wilmslow, Cheshire) war ein britischer Logiker, ... 30 Jun 2026 · The Turing machine was invented in 1936 by Alan Turing, who called it an "a-machine" (automatic machine). ... It was Turing's doctoral advisor, Alonzo Church, who ... 12 Aug 2026 · The Imitation Game is a 2014 American biographical thriller film directed by Morten Tyldum and written by Graham Moore, based on the 1983 biography Alan Turing: ... 22 Sept 2025 · Alan Turing (1912–1954) was a British mathematician, logician, cryptanalyst and computer scientist. Turing may also refer to: ... 11 Jan 2026 · Alan Mathison Turing (/ˈtjʊərɪŋ/; 23 Juni 1912 – 7 Juni 1954) adalah seorang matematikawan, ilmuwan komputer, ahli logika, kriptanalis, filsuf dan ahli ...[0m[32;1m[1;3m
+Invoking: `web_search` with `Alan Turing Wikipedia summary`
+
+
+[0m[36;1m[1;3m3 Aug 2026 · Alan Mathison Turing OBE, FRS [ˈælən ˈmæθɪsən ˈtjʊəɹɪŋ] (* 23. Juni 1912 in London; † 7. Juni 1954 in Wilmslow, Cheshire) war ein britischer Logiker, ... 30 Jun 2026 · The Turing machine was invented in 1936 by Alan Turing, [7] [11] who called it an "a-machine" (automatic machine). [12] It was Turing's doctoral advisor, 12 Aug 2026 · The Imitation Game is a 2014 American biographical thriller film. Alan Turing proposed for answering the question "Can machines think?", minal paper "Computing ... 22 Sept 2025 · Alan Turing (1912–1954) was a British mathematician, logician, cryptanalyst and computer scientist. Turing may also refer to: ... 11 Jan 2026 · Alan Mathison Turing (/ˈtjʊərɪŋ/; 23 Juni 1912 – 7 Juni 1954) adalah seorang matematikawan, ilmuwan komputer, ahli logika, kriptanalis, filsuf dan ahli ...[0m
